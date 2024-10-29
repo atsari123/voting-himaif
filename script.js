@@ -104,7 +104,8 @@ document
         loginModal.show();
       }, 3000);
     } catch (error) {
-      alert(error.message);
+      console.error("Sign-up error:", error); // Menampilkan detail error di konsol
+      alert("Gagal mendaftar: " + error.message); // Menampilkan error di UI
     }
   });
 

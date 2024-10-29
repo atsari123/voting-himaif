@@ -300,3 +300,113 @@
 }
 
 /* footer end */
+
+/* Tambahkan ini di bagian atas file CSS */
+@media (max-width: 991.98px) {
+    .navbar .container .navbar-brand {
+        font-size: 22px;
+    }
+
+    .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+    .home .content h5 {
+        font-size: 20px;
+    }
+
+    .home .content h1 {
+        font-size: 40px;
+    }
+
+    #candidate-list .card {
+        width: 250px;
+        margin: 20px;
+    }
+
+    .card-body .btn {
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar .container .navbar-brand {
+        font-size: 20px;
+    }
+
+    .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .home .content h5 {
+        font-size: 18px;
+    }
+
+    .home .content h1 {
+        font-size: 32px;
+    }
+
+    #candidate-list .card {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .card-body .btn {
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    #footer h1 {
+        font-size: 24px;
+    }
+
+    .social-links i {
+        font-size: 18px;
+    }
+
+    .credit {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar .container .navbar-brand {
+        font-size: 18px;
+    }
+
+    .home .content {
+        padding-top: 200px;
+    }
+
+    .home .content h5 {
+        font-size: 16px;
+    }
+
+    .home .content h1 {
+        font-size: 28px;
+    }
+
+    .home .content .btn {
+        font-size: 14px;
+    }
+
+    #footer h1 {
+        font-size: 22px;
+    }
+
+    .social-links i {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .credit {
+        font-size: 10px;
+    }
+}
